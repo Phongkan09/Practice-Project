@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #8EC5FC;
+            background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        .weather-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 350px;
+        }
+
+        input {
+            padding: 10px;
+            width: 70%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .result {
+            margin-top: 20px;
+            display: none;
+            /* ซ่อนไว้ก่อน ค่อยโชว์ตอนดึงข้อมูลเสร็จ */
+        }
+
+        h3 {
+            margin: 10px 0;
+            color: #333;
+            font-size: 24px;
+        }
+
+        .temp {
+            font-size: 40px;
+            font-weight: bold;
+            color: #ff6b6b;
+            margin: 10px 0;
+        }
+
+        .desc {
+            font-size: 18px;
+            color: #666;
+            text-transform: capitalize;
+        }
+        #quoteText{
+            width: 300px;
+            margin: 20px auto;
+            color: #146cc4;
+        }
+        #quoteAuthor{
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="weather-card">
+        <h2>🌤️ พยากรณ์อากาศ</h2>
+        <input type="text" id="cityInput" placeholder="พิมพ์ชื่อเมือง (ภาษาอังกฤษ)">
+        <button id="searchBtn">ค้นหาเลย</button>
+
+        <div id="weatherResult" class="result">
+            <h3 id="cityName">---</h3>
+            <div class="temp"><span id="temperature">--</span>°C</div>
+            <div class="desc" id="description">--</div>
+            <div id="quoteText">--</div>
+            <div id="quoteAuthor">--</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

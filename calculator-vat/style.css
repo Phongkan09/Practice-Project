@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: medium;
+}
+body{
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+/*---------------------------------------------------------------------*/
+/*Responsive*/
+@media screen and (max-width: 425px){
+    body {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    .container {
+        width: 100%; 
+        max-width: 350px;
+        margin-bottom: 20px;
+    }
+}
+/*---------------------------------------------------------------------*/
+/*container*/
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    border-radius: 15px;
+    flex: 1;
+}
+.container.item-1{
+    max-width: 300px;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 3px 3px 5px 1px #96989b;
+}
+.container.item-2{
+    max-width: 300px;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    box-shadow: 3px 3px 5px 1px #96989b;
+}
+
+/*--------------------------------------------------------------------*/
+/*Form*/
+#price{
+    padding: 5px;
+    border: 1px solid #282828;
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px 20px;
+}
+#price:focus{
+    background-color: #b0d4fc;
+}
+.item-1 div:first-child{
+    margin: 5px 20px;
+}
+.container div span{
+    color: #3988A4;
+}
+
+/*---------------------------------------------------------------*/
+/*ภาษีมูลค่าเพิ่ม*/
+.vat{
+    display: flex;
+    align-items: center;
+}
+.vat div:first-child{
+    margin: 5px 20px;
+}
+/*.vat div:nth-child(2){
+    position: relative;
+    left: 62px;
+}*/
+#vat-7{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 50px;
+    height: auto;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+#vat-7:focus{
+    background-color: #b0d4fc;
+}
+
+/*--------------------------------------------------------------------*/
+/*button*/
+.button-calculation{
+    height: 30px;
+    color: white;
+    background-color: #11375f;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: auto;
+}
+.button-calculation:hover{
+    background-color: #264566;
+    border: 1px solid white;
+}
+
+/*-----------------------------------------------------------------------*/
+/*Box Result*/
+.text-setting-firstbox-result{
+    font-size: 30px;
+    margin: 5px 20px;
+}
+.box-result{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 15px 15px;
+    background-color: white;
+}
+
+/*before-vat*/
+.box-result.before-vat{
+    width: 75%;
+    height: 20%;
+    background-color: #282828;
+    border-radius: 15px;
+    margin: 5px 20px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+/*---------------------------------------*/
+
+
+/*includes-vat*/
+.box-result.includes-vat{
+    width: 75%;
+    height: 20%;
+    background-color: #282828;
+    border-radius: 15px;
+    margin: 5px 20px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+/*---------------------------------------*/
+
+
+/*value-vat*/
+.box-result.value-vat{
+    width: 75%;
+    height: 20%;
+    background-color: #282828;
+    border-radius: 15px;
+    margin: 5px 20px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+/*---------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------*/
+/*result*/
+.text-result{
+    color: white;
+    margin: 10px;
+}
+.area-result{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #11375f;
+    border-radius: 0px 0px 15px 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+

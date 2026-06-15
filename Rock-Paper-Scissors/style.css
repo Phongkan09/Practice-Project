@@ -1,0 +1,27 @@
+.box-show{
+    display: none;
+    align-items: center;
+}
+.text-result{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.result-emoji{
+    display: grid;
+    grid-template-columns: 3fr 0.5fr 3fr;
+    align-items: center;
+}
+.emo{
+    font-size: 120px;
+}
+.player{
+    display: none;
+}
+.com{
+    display: none;
+}  
+.vs{
+    font-size: 20px;
+}

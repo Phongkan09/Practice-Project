@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .choices {
+            margin: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        #result {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        #score {
+            margin-top: 10px;
+            color: #555;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>เป่ายิ้งฉุบ! ✊✌️🖐️</h1>
+
+    <div class="choices">
+        <button id="rock" onclick="playerplay(this)" value="✊">✊ ค้อน</button>
+        <button id="paper" onclick="playerplay(this)" value="🖐️">🖐️ กระดาษ</button>
+        <button id="scissors" onclick="playerplay(this)" value="✌️">✌️ กรรไกร</button>
+    </div>
+
+    <div id="result">เลือกอาวุธของคุณ!</div>
+    <div id="score">ผู้เล่น: <span id="player-score"></span> | คอมพิวเตอร์: <span id="computer-score"></span></div>
+
+    <div class="box-show">
+        <div class="text-result">
+            <div>Player</div>
+            <div>Computer</div>
+        </div>
+        <div class="result-emoji">
+            <div class="emo">
+                <div class="player"></div>
+            </div>
+            <div class="vs">Vs</div>
+            <div class="emo">
+                <div class="com"></div>
+            </div>
+        </div>
+    </div>
+
+    <div></div>
+    <script src="script.js"></script>
+</body>
+
+</html>

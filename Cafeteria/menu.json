@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "storeName": "ร้านป้าเจี๊ยบ ตามสั่ง",
+        "menuName": "ข้าวกะเพราหมูกรอบ",
+        "price": 50,
+        "isSpicy": true,
+        "icon": "🔥"
+    },
+    {
+        "id": 2,
+        "storeName": "ร้านเฮียตี๋ ข้าวมันไก่",
+        "menuName": "ข้าวมันไก่ต้ม",
+        "price": 40,
+        "isSpicy": false,
+        "icon": "🍗"
+    },
+    {
+        "id": 3,
+        "storeName": "ร้านน้ำปั่น ลุงชล",
+        "menuName": "ชานมเย็นปั่น",
+        "price": 30,
+        "isSpicy": false,
+        "icon": "🥤"
+    },
+    {
+        "id": 4,
+        "storeName": "ร้านป้าเจี๊ยบ ตามสั่ง",
+        "menuName": "ข้าวผัดหมู",
+        "price": 45,
+        "isSpicy": false,
+        "icon": "🍳"
+    }
+]

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculation VAT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container item-1">
+        <div>มูลค่าสินค้า <span>ก่อน VAT</span></div>
+        <input id="price" type="text" placeholder="฿0" value="">
+        <div class="vat">
+            <div>ภาษีมูลค่าเพิ่ม <span>(VAT%)</span></div>
+            <input id="vat-7" type="number" value="7">
+        </div>
+        <button class="button-calculation" type="button" onclick="calculation()">คำนวณ</button>
+    </div>
+    
+    <div class="container item-2">
+        <div class="text-setting-firstbox-result">Result</div>
+        <div class="box-result">
+            <!--ค่า result ที่หาได้-->
+            <div class="box-result before-vat">
+                <div class="text-result">
+                    ราคาก่อน VAT
+                </div>
+                <div class="area-result item1">
+                    
+                </div>
+            </div>
+            <div class="box-result includes-vat">
+                <div class="text-result">
+                    ราคารวม VAT แล้ว
+                </div>
+                <div class="area-result item2">
+                    
+                </div>
+            </div>
+            <div class="box-result value-vat">
+                <div class="text-result">
+                    ภาษีมูลค่าเพิ่ม
+                </div>
+                <div class="area-result item3">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
