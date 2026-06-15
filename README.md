@@ -2,6 +2,8 @@
 เก็บ Project ต่างๆที่ฝึกมาทั้งหมด
 # 🚀 Practice Projects Collection
 
+# 🚀 Practice Projects Collection
+
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -12,7 +14,7 @@
 
 | ชื่อโปรเจกต์ | คำอธิบาย |
 | :--- | :--- |
-| [**calculator-tax**](./calculator-tax) | โปรแกรมคำนวณภาษีเงินได้ |
+| [**calculator-tax**](./calculator-tax) | โปรแกรมคำนวณภาษีเงินได้ ⚠️ *(ยังพัฒนาไม่เสร็จ / ยังไม่ได้พัฒนาต่อ)* |
 | [**calculator-vat**](./calculator-vat) | โปรแกรมคำนวณภาษีมูลค่าเพิ่ม (VAT) |
 | [**To-do list**](./To-do%20list) | แอพพลิเคชันบันทึกและจัดการรายการที่ต้องทำ |
 | [**Rock-Paper-Scissors**](./Rock-Paper-Scissors) | มินิเกมเป่ายิ้งฉุบ |
