@@ -25,4 +25,4 @@
 
 1. Clone repository นี้ลงในเครื่องของคุณ:
    ```bash
-   git clone [https://github.com/Phongkan09/Practice-Project.git](https://github.com/Phongkan09/Practice-Project.git)
+   git clone [https://github.com/Phongkan09/Practice-Project-Web.git](https://github.com/Phongkan09/Practice-Project-Web.git)
