@@ -1,5 +1,5 @@
 # Practice-Project
-เก็บ Project ต่างๆที่ฝึกมาทั้งหมด
+ผลงานเมื่อ ปวช.1 เทอม 1 (2568)
 
 # 🚀 Practice Projects Collection
 
